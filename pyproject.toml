@@ -10,7 +10,9 @@ dependencies = []
 [project.optional-dependencies]
 dev = [
     "ruff",
-    "pytest"
+    "pytest",
+    "black",
+    "black[jupyter]"
 ]
 
 notebook = [
